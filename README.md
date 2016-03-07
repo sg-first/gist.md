@@ -1,4 +1,4 @@
-# my gist
+# gist
 * [MakingMeaning.bat](https://code.csdn.net/snippets/941251)
 * [privateLetter.php](https://code.csdn.net/snippets/1579370)
 * [match.php](https://code.csdn.net/snippets/1579369)
