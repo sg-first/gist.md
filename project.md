@@ -1,7 +1,7 @@
 project
 ===============
 
-协管
+Collaborators
 ---------
 * [ice1000/AIAndroid](https://github.com/ice1000/AIAndroid)
 * [PLASTIC/SpiderKing](https://github.com/ProgramLeague/SpiderKing)
