@@ -7,3 +7,4 @@
 * [fastcv2.py](https://code.csdn.net/snippets/1558000)
 * [GrabContent.php](https://code.csdn.net/snippets/1552957)
 * [command.cpp](https://code.csdn.net/snippets/1377405)
+* [http.py](https://code.csdn.net/snippets/1651814)
