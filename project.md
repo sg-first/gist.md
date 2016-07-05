@@ -3,7 +3,7 @@ project
 
 Collaborators
 ---------
-* [ice1000/AIAndroid](https://github.com/ice1000/AIAndroid)
+* [PLASTIC/AiQi](https://github.com/ProgramLeague/AiQi)
 * [PLASTIC/SpiderKing](https://github.com/ProgramLeague/SpiderKing)
 * [1136863240/car_auction](https://github.com/1136863240/car_auction)
 * [PLASTIC/CppGarbageCollection](https://github.com/ProgramLeague/CppGarbageCollection)
