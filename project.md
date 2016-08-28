@@ -13,4 +13,3 @@ Collaborators
 
 Promoter
 -----------
-* [PASTIC/TriangleIdentification](https://github.com/ProgramLeague/TriangleIdentification)
