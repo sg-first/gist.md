@@ -8,3 +8,4 @@
 * [command.cpp](https://code.csdn.net/snippets/1377405)
 * [http.py](https://code.csdn.net/snippets/1651814)
 * [Converter.cpp](https://code.csdn.net/snippets/1727596)
+* [bind.cpp](https://code.csdn.net/snippets/1722658)
