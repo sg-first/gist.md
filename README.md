@@ -9,3 +9,5 @@
 * [http.py](https://code.csdn.net/snippets/1651814)
 * [Converter.cpp](https://code.csdn.net/snippets/1727596)
 * [bind.cpp](https://code.csdn.net/snippets/1722658)
+* [recursion.cpp](https://code.csdn.net/snippets/2348570)
+* [iterator.cs](https://code.csdn.net/snippets/2349777)
