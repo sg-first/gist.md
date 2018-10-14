@@ -12,3 +12,4 @@ Collaborators
 
 Promoter
 -----------
+* [PLASTIC/SCMath](https://github.com/ProgramLeague/SCMath)
