@@ -8,12 +8,5 @@ long factorial(long number)
 
 int combinator(int n,int m)
 {
-    int temp;
-    if(n<m)
-    {
-        temp=n;
-        n=m;
-        m=temp;
-    }
     return factorial(n)/(factorial(m)*factorial(n-m));
 }
