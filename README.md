@@ -13,3 +13,4 @@ Promoter
 -----------
 * [PLASTIC/SCMath](https://github.com/ProgramLeague/SCMath)
 * [DogeStudio/TriangleDentification](https://github.com/DogeStudio/TriangleDentification)
+* [ProgramLeague/EditorFrontend](https://github.com/ProgramLeague/EditorFrontend)
