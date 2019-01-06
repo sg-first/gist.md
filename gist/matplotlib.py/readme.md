@@ -1,5 +1,6 @@
-matplotlib
+﻿matplotlib
 =======
 * 条形图
 * 折线图
 * 散点图
+* 函数图像绘制
