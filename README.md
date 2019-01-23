@@ -15,3 +15,4 @@ Promoter
 * [DogeStudio/TriangleDentification](https://github.com/DogeStudio/TriangleDentification)
 * [ProgramLeague/EditorFrontend](https://github.com/ProgramLeague/EditorFrontend)
 * [Goldbach Research Group/ZhiHu-Spider](https://github.com/Goldbach-Research-Group/ZhiHu-Spider)
+* [DogeStudio/chumpy3](https://github.com/DogeStudio/chumpy3)
