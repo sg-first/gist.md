@@ -16,3 +16,4 @@ Promoter
 * [ProgramLeague/EditorFrontend](https://github.com/ProgramLeague/EditorFrontend)
 * [Goldbach Research Group/ZhiHu-Spider](https://github.com/Goldbach-Research-Group/ZhiHu-Spider)
 * [DogeStudio/chumpy3](https://github.com/DogeStudio/chumpy3)
+* [DogeStudio/SMPL3](https://github.com/DogeStudio/SMPL3)
