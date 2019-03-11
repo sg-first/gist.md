@@ -1,22 +1,27 @@
 import numpy as np
 from matplotlib import pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 
-def funImg2D(f, start=-10, stop=10, step=0.03, axisRange=(-10,10)):
+def funImg2D(f, step=0.03, axisRange=(-10,10)):
     # 计算所有的点
-    num=(stop-start)/step
-    x = np.linspace(start,stop,num)
+    num=(axisRange[1]-axisRange[0])/step
+    x = np.linspace(axisRange[0],axisRange[1],num)
     y = f(x)
 
-    fig=plt.figure(figsize=(6,6))
-    plt.plot(x, y,label='Function')#在当前的对象上进行操作
+    fig=plt.figure()
+    plt.plot(x, y) # 在当前的对象上进行操作
     plt.grid(True) # 显示网格
-    plt.axis("equal") # 设置了x、y刻度长度一致#需要放在x、ylim指令前
-    plt.xlim(axisRange) # 显示的x的范围（不设置则由程序自动设置）
-    plt.ylim(axisRange) # 显示的y的范围
-
-    plt.plot([min(x),max(x)], [0,0],label='x-axis')
-    plt.plot([0,0],[min(y),max(y)],label='y-axis')
-    plt.legend() # 显示旁注，注意：不会显示后来再定义的旁注
+    # plt.axis("equal") # 设置了x、y刻度长度一致
     plt.show(fig) # 没有输入值默认展示所有对象
     # 注意：plt.show()之后再次使用plt.show()指令将不会展示任何对象，若想再次展示对象，可以对对象使用fig.show()
-	
+
+def funImg3D(f, step=0.03, axisRange=(-10,10)):
+    x=np.arange(axisRange[0],axisRange[1],step)
+    y=np.arange(axisRange[0],axisRange[1],step)
+    x,y=np.meshgrid(x,y)
+    z=f(x,y)
+
+    fig = plt.figure()
+    ax = Axes3D(fig)
+    ax.plot_surface(x,y,z,cmap='rainbow')
+    plt.show(fig)
