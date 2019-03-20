@@ -1,29 +1,26 @@
 #pragma once
-#include "io.h"
-#include "date.h"
-#include "book.h"
-#include "binarySerialize.hpp"
+#include <iostream>
 
 #define TEST(CODE) if (CODE()) success++; else fail++
 #define JUDGE(RIGHT) if (result == RIGHT)\
 					{\
-						out(name + "---->PASS");\
+						cout<<name + "---->PASS"<<endl;\
 						return true;\
 					}\
 					else\
 					{\
-					out(name + "---->FAIL");\
-					return false;\
+						cout<<name + "---->FAIL"<<endl;\
+						return false;\
 					}
 #define JUDGE2(CON) if (CON)\
 					{\
-						out(name + "---->PASS");\
+						cout<<name + "---->PASS"<<endl;\
 						return true;\
 					}\
 					else\
 					{\
-					out(name + "---->FAIL");\
-					return false;\
+						cout<<name + "---->FAIL"<<endl;\
+						return false;\
 					}
 #define NAME(N) string name = N
 
@@ -116,7 +113,7 @@ public:
 	void runAll()
 	{
 		string name = "testborrowStru";
-		out("----" + name + "测试组启动----");
+		cout<<"----" + name + "测试组启动----"<<endl;
 
 		int success = 0;
 		int fail = 0;
@@ -129,6 +126,6 @@ public:
 		TEST(isPublish1);
 		TEST(isPublish2);
 
-		out(name + "测试组：成功" + to_string(success) + "个 失败" + to_string(fail) + "个");
+		cout<<name + "测试组：成功" + to_string(success) + "个 失败" + to_string(fail) + "个"<<endl;
 	}
 };
