@@ -12,6 +12,7 @@ Collaborators
 Promoter
 -----------
 * [PLASTIC/SCMath](https://github.com/ProgramLeague/SCMath)
+* [PLASTIC/Physics-lab](https://github.com/ProgramLeague/Physics-lab)
 * [DogeStudio/TriangleDentification](https://github.com/DogeStudio/TriangleDentification)
 * [ProgramLeague/EditorFrontend](https://github.com/ProgramLeague/EditorFrontend)
 * [Goldbach Research Group/ZhiHu-Spider](https://github.com/Goldbach-Research-Group/ZhiHu-Spider)
